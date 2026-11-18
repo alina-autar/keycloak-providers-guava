@@ -28,7 +28,7 @@ dependencies {
     providedByKeycloak("org.keycloak:keycloak-server-spi-private:$keycloakVersion")
     providedByKeycloak("jakarta.ws.rs:jakarta.ws.rs-api:3.1.0")
 
-    implementation("com.google.guava:guava:33.7.1-jre")
+    implementation("com.google.guava:guava:33.7.2-jre")
     implementation("org.json:json:20260814")
     implementation("org.apache.httpcomponents:httpmime:4.5.14")
     implementation("org.apache.httpcomponents:httpclient:4.5.14")
